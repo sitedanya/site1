@@ -1,0 +1,70 @@
+body{
+    background: #1c293f;
+}
+
+p{
+    color: #ffffff;
+    font-family: monospace;
+    font-size: 20px;
+    position: absolute;
+    top:500px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.text {
+    color: white;
+    font-family: monospace;
+    font-size: 30px;
+    border-right: 3px solid white; /* рисуем курсор */
+    animation: cursor 0.75s step-end infinite, printed_text 3s steps(29);
+    white-space: nowrap; /* не переносить текст на другую строку */
+    overflow: hidden; /* скрываем переполнение контентом */
+    width: 29ch; /* фиксированная ширина для текста */
+}
+
+@keyframes cursor {
+    0% {
+        border-color: white;
+    }
+
+    50% {
+        border-color: transparent;
+    }
+
+    100% {
+        border-color: white;
+    }
+}
+
+@keyframes printed_text {
+    0% {
+        width: 0; /* Начинаем с нуля */
+    }
+    100% {
+        width: 29ch; /* Увеличиваем ширину до 29ch */
+    }
+}
+img{
+    width: 300px;
+    height: 400px;
+}
+.frac2{
+    width: 400px;
+    height: 325px;
+}
+.previous{
+    position: absolute;
+    top:50px;
+    right:30px;
+}

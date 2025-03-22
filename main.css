@@ -1,0 +1,143 @@
+.TicTacToe{
+    position: absolute;
+    top: 7px;
+    left: 10px;
+    right: 100px;
+    bottom: 100px;
+    height: 35px;
+    width: 120px;
+    z-index: 2;
+    border: none; outline: none;
+    color:white;
+    background-color: rgba(28,28,28,0);
+    font-size: 20px;
+    font-family: monospace;
+    cursor: pointer;
+}
+.body2{
+    background-color: #1c293f;
+}
+
+
+
+
+.rectangle{
+    background-color: #293629;
+    position: relative;
+    left: -10px;
+    bottom: 10px;
+    height: 50px;
+    width: 200px;
+    margin:auto;
+}
+body{
+    background-color: #293629;
+}
+.infbann{
+    color: white;
+    font-size: 35px;
+    font-family: monospace;
+}
+.next{
+    position: relative;
+    width: 40px;
+    height: 20px;
+
+    left: 70px;
+    margin:auto;
+}
+img{
+    position: relative;
+    left: 70px;
+    width: 800px;
+}
+.frac{
+    position: relative;
+    top: 70px;
+    left: 20px;
+    width: 150px;
+    margin:auto;
+    display: grid;
+    grid-gap: 50px;
+}
+.pressthebutton{
+    position: relative;
+    top: 100px;
+    font-size:50px;
+    color: white;
+}
+
+.diego {
+    position: relative;
+    top: 70px;
+    width: 150px;
+    height: 150px;
+    border: none;
+    margin:auto;
+    background-image: url('sources/diego.png');
+    background-size: cover;
+    cursor: pointer;
+    animation: glowing 20s linear infinite;
+
+}
+
+.johan {
+    position: relative;
+    top: 70px;
+    width: 150px;
+    height: 150px;
+    border: none;
+    margin:auto;
+    background-image: url('sources/johan.png');
+    background-size: cover;
+    cursor: pointer;
+}
+
+.maldini {
+    position: relative;
+    top: 70px;
+    width: 150px;
+    height: 150px;
+    border: none;
+    margin:auto;
+    background-image: url('sources/maldini.png');
+    background-size: cover;
+    cursor: pointer;
+}
+
+.ronaldo {
+    position: relative;
+    top: 70px;
+    width: 150px;
+    height: 150px;
+    border: none;
+    margin:auto;
+    background-image: url('sources/ronaldo.png');
+    background-size: cover;
+    cursor: pointer;
+}
+
+.yashin {
+    position: relative;
+    top: 70px;
+    width: 150px;
+    height: 150px;
+    border: none;
+    margin:auto;
+    background-image: url('sources/yashin.png');
+    background-size: cover;
+    cursor: pointer;
+}
+
+.zidan {
+    position: relative;
+    top: 70px;
+    width: 150px;
+    height: 150px;
+    border: none;
+    margin:auto;
+    background-image: url('sources/zidan.png');
+    background-size: cover;
+    cursor: pointer;
+}
+
